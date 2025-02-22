@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/filmListFragment"
-        android:name="com.blacksun.filmflow.FilmListFragment"
+        android:name="com.blacksun.filmflow.ui.FilmListFragment"
         android:label="Фильмы">
         <action
             android:id="@+id/action_to_details"
@@ -16,7 +16,7 @@
 
     <fragment
         android:id="@+id/filmDetailsFragment"
-        android:name="com.blacksun.filmflow.FilmDetailsFragment"
+        android:name="com.blacksun.filmflow.ui.FilmDetailsFragment"
         android:label="Детали">
 
         <argument
