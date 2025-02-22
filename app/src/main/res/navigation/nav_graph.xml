@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/filmListFragment">
+
+    <fragment
+        android:id="@+id/filmListFragment"
+        android:name="com.blacksun.filmflow.FilmListFragment"
+        android:label="Фильмы">
+        <action
+            android:id="@+id/action_to_details"
+            app:destination="@id/filmDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/filmDetailsFragment"
+        android:name="com.blacksun.filmflow.FilmDetailsFragment"
+        android:label="Детали">
+
+        <argument
+            android:name="movie"
+            app:argType="com.blacksun.filmflow.data.Movie"
+            app:nullable="false"/>
+
+    </fragment>
+</navigation>

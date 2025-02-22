@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">FilmFlow</string>
+    <string name="movies">Фильмы</string>
+    <string name="movie_poster">Постер фильма</string>
+    <string name="genres">Жанры</string>
+    <string name="network_connection_error">Ошибка подключения сети</string>
+    <string name="retry">Повторить</string>
+    <string name="movie">Фильм</string>
+    <string name="kinopoisk_label">КиноПоиск</string>
+    <string name="movie_year_template">%d год</string>
+    <string name="movie_add_info_template">%1$s, %2$d год</string>
 </resources>
